@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+.light-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.not-found-image {
+  width: 280px;
+  height: 280px;
+}
+
+.light-not-found-container {
+  color: #333333;
+  font-weight: normal;
+}
+
+.light-not-found-para {
+  color: #334155;
+}
+
+.dark-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.dark-not-found-heading {
+  color: white;
+  font-weight: normal;
+}
+
+.dark-not-found-para {
+  color: #dcdcdc;
+}
